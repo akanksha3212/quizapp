@@ -84,7 +84,7 @@ class _QuizPage2State extends State<QuizPage2> {
   late Color colornew;
   @override
   Widget build(BuildContext context) {
-    return WillPopScope(
+    return  WillPopScope(
       onWillPop: () async => back(context),
       child: Scaffold(
         backgroundColor: Colors.white,
